@@ -146,16 +146,8 @@ $(document).ready(function(){
         var rony_only = $('#rony_only').val();
 
 
-
-
-
-
-
-
-
-
         $.ajax({
-            url: 'http://216.117.170.222/recognize',
+            url: 'https://face.ugarsoft.com/recognize',
             type: 'post',
             data: fd,
             contentType: false,
