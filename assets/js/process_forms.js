@@ -323,7 +323,7 @@ $(document).ready(function(){
         $('#student_department_span').text(student['department']);
         $('#expiry_date_span').text(student['id_card_expiry']);
 
-        JsBarcode("#student_barcode", student['reg_number']);
+       // JsBarcode("#student_barcode", student['reg_number']);
 
 
     }
